@@ -24,7 +24,7 @@ precioDeseado = 500
 
 print(precioDeseado)
 
-if precioDeseado < precioActual:
+if precioDeseado >= precioActual:
     print("Esta oferta es para ti")
 else:
     print("no hay nada para ti")
